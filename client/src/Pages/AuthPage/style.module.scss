@@ -1,0 +1,21 @@
+.wrapper {
+    margin-top: 122px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+        font: 500 23px 'Inter'
+    }
+
+    p {
+        font: 500 14px 'Inter';
+        color: rgba(96, 103, 120, 1);
+        margin-top: 8px;
+
+    }
+
+   input{
+    width: 100%;
+   }
+}

@@ -1,0 +1,21 @@
+.img {
+    background-image: url(./assets/main.svg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 474px;
+    height: 220px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+   
+
+    h1 {
+        margin: auto;
+    }
+}
