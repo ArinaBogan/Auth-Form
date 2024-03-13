@@ -2,6 +2,7 @@ import Header from "../../Components/Header/Header";
 import style from './style.module.scss';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 
 function RegPage() {
@@ -42,7 +43,10 @@ function RegPage() {
                 />
             </div>
             <Button style={{ width: '15%', marginLeft: 'auto' }} variant="contained">Continue</Button>
-            <p style={{ textAlign: 'end' }}>Already registered? Sign In</p>
+            <p style={{ textAlign: 'end' }}>
+                Already registered?
+                <Link to={'/'}>Sign In</Link>
+            </p>
         </div>
 
     </>);

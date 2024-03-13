@@ -2,6 +2,7 @@ import Header from "../../Components/Header/Header";
 import style from './style.module.scss';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
+import {Link} from 'react-router-dom'
 
 
 function AuthPage() {
@@ -25,7 +26,9 @@ function AuthPage() {
             />
 
             <Button style={{ width: '15%',marginLeft:'auto' }} variant="contained">Continue</Button>
-            <p style={{textAlign:'end'}}>Not registered yet? Sign Up</p>
+            <p style={{textAlign:'end'}}>Not registered yet?
+            <Link to={'/reg'}>Sign Up</Link> 
+             </p>
         </div>
 
     </>);
